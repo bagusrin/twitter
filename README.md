@@ -3,7 +3,7 @@ This is simple PHP Library to use Twitter API.
 
 
 ## Cara Install
-Summarizer dapat diinstall dengan [Composer](https://getcomposer.org/).
+Library ini dapat diinstall dengan [Composer](https://getcomposer.org/).
 
 ``
 composer require bagusrin/twitter:1.*
