@@ -1,8 +1,8 @@
 {
     "name": "bagusrin/twitter",
     "description": "API Twitter",
-    "license": "GPL v3",
-    "type": "3rd party",
+    "license": "GPL-3.0-only",
+    "type": "Library",
     "require": {
         "php": ">=7.1",
         "abraham/twitteroauth": "^0.7"
