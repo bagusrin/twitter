@@ -15,15 +15,5 @@
         "psr-4": {
             "Bagusrin\\Twitter\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Bagusrin\\Twitter\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        }
     }
 }
