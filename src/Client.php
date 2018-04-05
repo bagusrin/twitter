@@ -25,7 +25,7 @@ class Client{
 
     public function searchTweets(string $search, string $type, int $count = 25){
         
-        $param = ['q' => $search, 'result_type' => $type, 'count' => $count, 'tweet_mode' => 'extended'];
+        $param = ['q' => $search, 'result_type' => $type, 'count' => $count, 'lang' => 'id', 'tweet_mode' => 'extended'];
         
         $ret = $this->client->get('search/tweets', $param);
         return $ret;
